@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: navajowhite;
+    padding: 10px ;
+}
+
+nav a{
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.cnt a{
+    color: azure;
+    text-decoration: none;
+     background-color: rgb(70, 25, 112);
+     padding: 10px;
+     border-radius: 5px;
+     
+}
+
+.fa-facebook{
+    font-size: 30px;
+    color: dimgray;
+}
+.fa-facebook-messenger{
+    font-size: 30px;
+    color: dimgray;
+}
+.fa-instagram{
+    font-size: 30px;
+    color: dimgray;
+}
+.cnt a:hover{
+    color: black;
+    font-size: 40px;
+}
+.dec{
+    display: flex;
+    align-items: center;
+    background-color: khaki;
+    padding: 20px;
+}
+.dec h1{
+    text-align: center;
+    color: rgb(8, 48, 122);
+}
+.dec p{
+    text-align: justify;
+    
+    padding: 10px;
+    border-radius: 20px;
+
+}
